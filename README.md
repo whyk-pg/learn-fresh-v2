@@ -10,4 +10,5 @@
 このテンプレートリポジトリを使って練習用リポジトリを作成されるようになる
 
 ## 参考資料
-- 特になし
+- [preact/compat - Deno](https://questions.deno.com/m/1245398846276767744)
+- [preact-compat · denoland/fresh · Discussion #432](https://github.com/denoland/fresh/discussions/432)

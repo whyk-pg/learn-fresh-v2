@@ -1,15 +1,12 @@
-import { useSignal } from "@preact/signals";
-import { FaBeer } from "react-icons/fa";
+import { FaAd, FaBeer } from "react-icons/fa";
 import { define } from "../utils.ts";
-import Counter from "../islands/Counter.tsx";
 
 export default define.page(function Home() {
-  const count = useSignal(3);
-
   return (
     <div class="px-4 py-8 mx-auto fresh-gradient">
       <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
         <FaBeer size={80} />
+        <FaAd size={80} />
         <img
           class="my-6"
           src="/logo.svg"
@@ -22,7 +19,6 @@ export default define.page(function Home() {
           Try updating this message in the
           <code class="mx-2">./routes/index.tsx</code> file, and refresh.
         </p>
-        <Counter count={count} />
       </div>
     </div>
   );
