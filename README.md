@@ -10,5 +10,4 @@
 このテンプレートリポジトリを使って練習用リポジトリを作成されるようになる
 
 ## 参考資料
-- [Aliasing React to Preact in Deno · preactjs/preact · Discussion #4252](https://github.com/preactjs/preact/discussions/4252)
-- [Missing createContext · Issue #475 · preactjs/preact-compat](https://github.com/preactjs/preact-compat/issues/475)
+- 特になし
