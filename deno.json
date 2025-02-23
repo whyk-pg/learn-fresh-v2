@@ -21,11 +21,9 @@
   "imports": {
     "fresh": "jsr:@fresh/core@^2.0.0-alpha.29",
     "@fresh/plugin-tailwind": "jsr:@fresh/plugin-tailwind@^0.0.1-alpha.7",
-    "preact": "npm:preact@^10.26.2",
-    "react": "npm:preact@^10.26.2/compat",
-    "react-dom": "npm:preact@^10.26.2/compat",
-    "react-icons": "npm:react-icons@^5.5.0",
-    "react/jsx-runtime": "npm:preact@^10.26.2/jsx-runtime",
+    "preact": "npm:preact@^10.25.4",
+    "@preact/signals": "npm:@preact/signals@^2.0.1",
+    "react-icons/fa": "https://esm.sh/react-icons@5.4.0/fa?alias=react:preact/compat&deps=preact@10.25.4",
     "tailwindcss": "npm:tailwindcss@^3.4.3"
   },
   "compilerOptions": {
@@ -35,7 +33,15 @@
       "dom.iterable",
       "deno.ns"
     ],
-    "jsx": "react-jsx",
-    "jsxImportSource": "react"
+    "jsx": "precompile",
+    "jsxImportSource": "preact",
+    "jsxPrecompileSkipElements": [
+      "a",
+      "img",
+      "source",
+      "body",
+      "html",
+      "head"
+    ]
   }
 }
