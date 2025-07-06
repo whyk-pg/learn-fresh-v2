@@ -15,6 +15,8 @@
   - React互換性の`createContext`に引っかかったらしくエラーで表示ならず([当該commit](https://github.com/whyk-pg/learn-fresh-v2/commit/65e881029e353ac17de50607fe0a4f0e43bfb51a))
 - [ ] ~~`preact/compat`を使って`react-icons`を追加し、表示する~~
   - エラーにはならなかったものの、画面に表示されずDOMにも描画されていなかった([当該commit](https://github.com/whyk-pg/learn-fresh-v2/commit/1d3d5d317d8d4dda6009711e3d4abebfa1c572dd))
+- [ ] HonoでAPIを構築する
+- [ ] フォームを使って簡易なログイン処理を実装する
 
 ### エラー内容
 #### esm.shを使った`@ark-ui/react`で発生したエラー
