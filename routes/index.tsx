@@ -1,6 +1,6 @@
 import { useSignal } from "@preact/signals";
 import { Head } from "fresh/runtime";
-import {FaBeer} from 'react-icons/fa';
+import { FaBeer } from "react-icons/fa";
 import { define } from "../utils.ts";
 import Counter from "../islands/Counter.tsx";
 
