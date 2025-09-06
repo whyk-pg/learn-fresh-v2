@@ -11,7 +11,10 @@
 ## 本リポジトリの達成目標
 - [x] Fresh v2を`jsr:@fresh/init`で作成する
 - [x] `react-icons`を追加し、表示する
-- [ ] `@ark-ui/react`を追加し、表示する
+- [x] `@ark-ui/react`を追加し、表示する
+  - エラーなく表示はできたが、動かない？
+  - Park UIを適用してみて様子を見る
+- [ ] `@park-ui/panda-preset`を追加し、表示する
 - [ ] HonoでAPIを構築する
 - [ ] フォームを使って簡易なログイン処理を実装する
 

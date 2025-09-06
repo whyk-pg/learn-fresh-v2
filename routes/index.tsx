@@ -1,6 +1,7 @@
 import { useSignal } from "@preact/signals";
 import { Head } from "fresh/runtime";
-import { FaBeer } from "react-icons/fa";
+import { FaArrowDown, FaBeer } from "react-icons/fa";
+import { Accordion } from "@ark-ui/react/accordion";
 import { define } from "../utils.ts";
 import Counter from "../islands/Counter.tsx";
 
@@ -30,6 +31,21 @@ export default define.page(function Home(ctx) {
           <code class="mx-2">./routes/index.tsx</code> file, and refresh.
         </p>
         <Counter count={count} />
+        <Accordion.Root defaultValue={["React"]} collapsible>
+          {["React", "Solid", "Vue", "Svelte"].map((item) => (
+            <Accordion.Item key={item} value={item}>
+              <Accordion.ItemTrigger>
+                What is {item}?
+                <Accordion.ItemIndicator>
+                  <FaArrowDown />
+                </Accordion.ItemIndicator>
+              </Accordion.ItemTrigger>
+              <Accordion.ItemContent>
+                {item} is a JavaScript library for building user interfaces.
+              </Accordion.ItemContent>
+            </Accordion.Item>
+          ))}
+        </Accordion.Root>
       </div>
     </div>
   );
