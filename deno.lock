@@ -39,6 +39,7 @@
     "npm:preact-render-to-string@^6.5.11": "6.5.13_preact@10.27.1",
     "npm:preact@^10.27.0": "10.27.1",
     "npm:preact@^10.27.1": "10.27.1",
+    "npm:react-icons@^5.5.0": "5.5.0_react@19.1.1",
     "npm:rollup@^4.50.0": "4.50.0",
     "npm:tailwindcss@^4.1.10": "4.1.13",
     "npm:vite@7.1.4": "7.1.4_picomatch@4.0.3_@types+node@24.2.0",
@@ -1235,6 +1236,15 @@
     "preact@10.27.1": {
       "integrity": "sha512-V79raXEWch/rbqoNc7nT9E4ep7lu+mI3+sBmfRD4i1M73R3WLYcCtdI0ibxGVf4eQL8ZIz2nFacqEC+rmnOORQ=="
     },
+    "react-icons@5.5.0_react@19.1.1": {
+      "integrity": "sha512-MEFcXdkP3dLo8uumGI5xN3lDFNsRtrjbOEKDLD7yv76v4wpnEq2Lt2qeHaQOr34I/wPN3s3+N08WkQ+CW37Xiw==",
+      "dependencies": [
+        "react"
+      ]
+    },
+    "react@19.1.1": {
+      "integrity": "sha512-w8nqGImo45dmMIfljjMwOGtbmC/mk4CMYhWIicdSflH91J9TyCyczcPFXJzrZ/ZXcgGRFeP6BU0BEJTw6tZdfQ=="
+    },
     "rollup@4.50.0": {
       "integrity": "sha512-/Zl4D8zPifNmyGzJS+3kVoyXeDeT/GrsJM94sACNg9RtUE0hrHa1bNPtRSrfHTMH5HjRzce6K7rlTh3Khiw+pw==",
       "dependencies": [
@@ -1360,6 +1370,7 @@
       "npm:@preact/signals@^2.3.1",
       "npm:@tailwindcss/vite@^4.1.12",
       "npm:preact@^10.27.1",
+      "npm:react-icons@^5.5.0",
       "npm:tailwindcss@^4.1.10",
       "npm:vite@^7.1.3"
     ]

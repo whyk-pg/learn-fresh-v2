@@ -1,5 +1,6 @@
 import { useSignal } from "@preact/signals";
 import { Head } from "fresh/runtime";
+import {FaBeer} from 'react-icons/fa';
 import { define } from "../utils.ts";
 import Counter from "../islands/Counter.tsx";
 
@@ -14,6 +15,8 @@ export default define.page(function Home(ctx) {
         <title>Fresh counter</title>
       </Head>
       <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
+        <FaBeer size={48} color="yellow" />
+        <FaBeer size={80} />
         <img
           class="my-6"
           src="/logo.svg"
